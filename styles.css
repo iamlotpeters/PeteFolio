@@ -365,6 +365,13 @@ footer{
 
 
 @media screen and (max-width: 400px) {
+  .showcase{
+    padding: 12px;
+  }
+  .showcase-right{
+    width: 100%;
+    padding: 12px;
+  }
   .skills-info-items img{
     width: 40%;
   }
