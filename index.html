@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio Page</title>
-  <link rel="stylesheet" href="styles.css">
+  <link id="bg-changer" rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="main-container">
@@ -14,6 +14,16 @@
         <div class="header-left">
           <h1>Lot<span>Peters.</span></h1>
         </div>
+        <div class="hamburger">
+          <img src="./img/menu_32.png" alt="" id="btn">
+        </div>
+        <nav id="nav">
+          <div class="menu-item">Home</div>
+          <div class="menu-item">About</div>
+          <div class="menu-item">Contact</div>
+          <div class="menu-item">Projects</div>
+          <div class="menu-item">Reviews</div>
+        </nav>
         <div class="header-center">
           <div class="menu-items">Home</div>
           <div class="menu-items">About</div>
@@ -32,11 +42,15 @@
         <div class="showcase-right">
           <h1>Hi, i'm Lot Peters, A Frontend Developer.</h1>
           <p> I love programming so much and the passion or desire to learn something new everyday is what has kept me going and growing from one programming language to another, all is by the grace of God. </p>
-          <button>Contact Me</button>
-          <div class="social">
+          <div class="right-btn">
             <img src="./img/icons8_facebook_32.png" alt="">
             <img src="./img/icons8_instagram_32.png" alt="">
             <img src="./img/icons8_twitter_32.png" alt="">
+          </div>
+          <button>Contact Me</button>
+          <div class="social">            
+            <img id="sun" src="./img/sun_32.png" alt="">
+            <img id="moon" src="./img/moon2_32.png" alt="">
           </div>
         </div>
       </div>
@@ -128,5 +142,6 @@
       <small>Designed and Developed By Lot Peters</small>
     </footer>
   </div>
+  <script src="script.js" defer></script>
 </body>
 </html>
